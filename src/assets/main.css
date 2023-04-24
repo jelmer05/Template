@@ -2,16 +2,17 @@
 @layer base {
   h1 {
     @apply text-[2em];
-    @apply font-[bolder];
+    @apply font-bolder;
   }
   h2 {
     @apply text-[1.5em];
-    @apply font-[bolder];
+    @apply font-bolder;
   }
   h3 {
     @apply text-[1em];
-    @apply font-[bolder];
+    @apply font-bolder;
   }
 }
 @tailwind components;
 @tailwind utilities;
+
